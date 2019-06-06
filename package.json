@@ -1,0 +1,22 @@
+{
+  "name": "parcel-build-browser-extension",
+  "version": "0.1.0",
+  "description": "A script for building browser extensions using Parcel",
+  "main": "index.js",
+  "bin": {
+    "build-browser-extension": "index.js"
+  },
+  "author": "Filip Stanis <filip@stanis.me>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fstanis/parcel-build-browser-extension.git"
+  },
+  "scripts": {
+    "start": "node build.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
